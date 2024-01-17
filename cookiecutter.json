@@ -1,8 +1,11 @@
 {
-    "project_name": "tf-single-tf",
-    "project_description": "Description-single-tf",
+    "project_name": "tf-split",
+    "project_description": "Description",
     "terraform_version": "1.5.5",
     "aws_provider_version": "5.0.0",
     "aws_region": "us-east-1",
-    "aws_profile": "vapollosb"
+    "aws_profile": "vsancusmgmt",
+    "_copy_without_render": [
+        ".terraform-docs.yml"
+    ]
 }
