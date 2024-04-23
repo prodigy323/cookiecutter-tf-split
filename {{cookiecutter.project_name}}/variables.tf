@@ -8,7 +8,7 @@ variable "profile" {
   default = "{{ cookiecutter.aws_profile }}"
 }
 
-variable "project_name" {
+variable "project_source" {
   type = string
 }
 
